@@ -1,0 +1,26 @@
+{
+  "name": "sports-live",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "request": "^2.75.0",
+    "rss-to-json": "^1.0.2",
+    "xml2js": "^0.4.17"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/samridhamla06/sports-live.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/samridhamla06/sports-live/issues"
+  },
+  "homepage": "https://github.com/samridhamla06/sports-live#readme"
+}
