@@ -1,0 +1,84 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/usr/local/bin/node',
+1 verbose cli   '/usr/local/bin/npm',
+1 verbose cli   'publish',
+1 verbose cli   'sports-live' ]
+2 info using npm@2.14.7
+3 info using node@v4.2.2
+4 verbose publish [ 'sports-live' ]
+5 silly cache add args [ 'sports-live', null ]
+6 verbose cache add spec sports-live
+7 silly cache add parsed spec Result {
+7 silly cache add   raw: 'sports-live',
+7 silly cache add   scope: null,
+7 silly cache add   name: 'sports-live',
+7 silly cache add   rawSpec: '',
+7 silly cache add   spec: '*',
+7 silly cache add   type: 'range' }
+8 silly addNamed sports-live@*
+9 verbose addNamed "*" is a valid semver range for sports-live
+10 silly addNameRange { name: 'sports-live', range: '*', hasData: false }
+11 silly mapToRegistry name sports-live
+12 silly mapToRegistry using default registry
+13 silly mapToRegistry registry https://registry.npmjs.org/
+14 silly mapToRegistry uri https://registry.npmjs.org/sports-live
+15 verbose addNameRange registry:https://registry.npmjs.org/sports-live not in flight; fetching
+16 verbose request uri https://registry.npmjs.org/sports-live
+17 verbose request no auth needed
+18 info attempt registry request try #1 at 3:44:11 AM
+19 verbose request using bearer token for auth
+20 verbose request id ad6fe16cdc8cd3d2
+21 http request GET https://registry.npmjs.org/sports-live
+22 http 404 https://registry.npmjs.org/sports-live
+23 verbose headers { 'content-type': 'application/json',
+23 verbose headers   'cache-control': 'max-age=0',
+23 verbose headers   'content-length': '2',
+23 verbose headers   'accept-ranges': 'bytes',
+23 verbose headers   date: 'Sun, 09 Oct 2016 22:14:13 GMT',
+23 verbose headers   via: '1.1 varnish',
+23 verbose headers   connection: 'keep-alive',
+23 verbose headers   'x-served-by': 'cache-sin6923-SIN',
+23 verbose headers   'x-cache': 'MISS',
+23 verbose headers   'x-cache-hits': '0',
+23 verbose headers   'x-timer': 'S1476051252.325226,VS0,VE1109',
+23 verbose headers   vary: 'Accept-Encoding' }
+24 silly get cb [ 404,
+24 silly get   { 'content-type': 'application/json',
+24 silly get     'cache-control': 'max-age=0',
+24 silly get     'content-length': '2',
+24 silly get     'accept-ranges': 'bytes',
+24 silly get     date: 'Sun, 09 Oct 2016 22:14:13 GMT',
+24 silly get     via: '1.1 varnish',
+24 silly get     connection: 'keep-alive',
+24 silly get     'x-served-by': 'cache-sin6923-SIN',
+24 silly get     'x-cache': 'MISS',
+24 silly get     'x-cache-hits': '0',
+24 silly get     'x-timer': 'S1476051252.325226,VS0,VE1109',
+24 silly get     vary: 'Accept-Encoding' } ]
+25 verbose stack Error: Registry returned 404 for GET on https://registry.npmjs.org/sports-live
+25 verbose stack     at makeError (/usr/local/lib/node_modules/npm/node_modules/npm-registry-client/lib/request.js:264:12)
+25 verbose stack     at CachingRegistryClient.<anonymous> (/usr/local/lib/node_modules/npm/node_modules/npm-registry-client/lib/request.js:242:14)
+25 verbose stack     at Request._callback (/usr/local/lib/node_modules/npm/node_modules/npm-registry-client/lib/request.js:172:14)
+25 verbose stack     at Request.self.callback (/usr/local/lib/node_modules/npm/node_modules/request/request.js:198:22)
+25 verbose stack     at emitTwo (events.js:87:13)
+25 verbose stack     at Request.emit (events.js:172:7)
+25 verbose stack     at Request.<anonymous> (/usr/local/lib/node_modules/npm/node_modules/request/request.js:1063:14)
+25 verbose stack     at emitOne (events.js:82:20)
+25 verbose stack     at Request.emit (events.js:169:7)
+25 verbose stack     at IncomingMessage.<anonymous> (/usr/local/lib/node_modules/npm/node_modules/request/request.js:1009:12)
+26 verbose statusCode 404
+27 verbose pkgid sports-live
+28 verbose cwd /Users/samridhamla06/Desktop/image_proc/LiveScoresAPI
+29 error Darwin 14.4.0
+30 error argv "/usr/local/bin/node" "/usr/local/bin/npm" "publish" "sports-live"
+31 error node v4.2.2
+32 error npm  v2.14.7
+33 error code E404
+34 error 404 Registry returned 404 for GET on https://registry.npmjs.org/sports-live
+34 error 404
+34 error 404 'sports-live' is not in the npm registry.
+34 error 404 You should bug the author to publish it (or use the name yourself!)
+34 error 404
+34 error 404 Note that you can also install from a
+34 error 404 tarball, folder, http url, or git url.
+35 verbose exit [ 1, true ]
