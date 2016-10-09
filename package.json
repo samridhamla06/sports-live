@@ -1,7 +1,7 @@
 {
   "name": "sports-live",
   "version": "1.0.0",
-  "description": "",
+  "description": "Get Live Sports Updates Absolutely FREE in your NodeJS",
   "main": "index.js",
   "dependencies": {
     "request": "^2.75.0",
@@ -16,8 +16,11 @@
     "type": "git",
     "url": "git+https://github.com/samridhamla06/sports-live.git"
   },
-  "keywords": [],
-  "author": "",
+  "keywords": ["sports","live","match","live-scores","games","free-scores"],
+  "author": {
+  "name":"Samridh Amla",
+  "email":"samridh.amla06@gmail.com"
+  },
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/samridhamla06/sports-live/issues"

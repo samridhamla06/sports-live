@@ -1,3 +1,5 @@
+'use strict'
+
 var helper = require('./helper.js');
 exports.getLiveScores = function(sport, team1, team2, callback) {
 
@@ -13,7 +15,6 @@ exports.getLiveScores = function(sport, team1, team2, callback) {
         default:
             helper.getOthersScores(sport,team1,team2,callback);
     }
-
 }
 
 
