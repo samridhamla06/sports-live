@@ -1,6 +1,6 @@
 #INTRODUCTION
 
-The sports-live NPM package allows you to extract highly accurate live updates about various popular sports for public use. The current version is bundled with two APIs as mentioned below:
+With sports-live NPM package, you can extract highly accurate live updates about various popular sports absolutely FREE. The current API version is bundled with two key functions as mentioned below:
 
 i) getAllMatches(sport):
 
