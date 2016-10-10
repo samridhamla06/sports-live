@@ -2,7 +2,7 @@
 
 The sports-live NPM package allows you to extract highly accurate live updates about various popular sports for public use. The current version is bundled with two APIs as mentioned below:
 
-i)getAllMatches(sport):
+i) getAllMatches(sport):
 
 -> It takes the sport’s name as an argument and gives you the output containing all the latest matches with live scores for the desired sport.
 
@@ -27,7 +27,7 @@ This can help you understand the various arguments and callbacks involved, as sh
     }
 });
 
-O/P: 
+Output: 
 
 [ { team1: 'Golubic V.',
     team2: 'Siegemund L',
@@ -56,9 +56,9 @@ O/P:
     }
 });
  
-O/P:
+Output:
 
-{ team1: ‘Murray A.’,
+{   team1: ‘Murray A.’,
     team2: ‘Dimitrov G.’,
     score: '2-0',
     currentStatus: 'Match Finished' }
@@ -72,12 +72,12 @@ Have a look at the output of test.js for better understanding.
 
 1) The available sports as of now are :
 
-Cricket
-Soccer (European leagues)
-Baseball
-American Football
-Tennis
-Ice Hockey
+a) Cricket
+b) Soccer (European leagues)
+c) Baseball
+d) American Football
+e) Tennis
+f) Ice Hockey
 
 2)  To enter multi-word sport name or team name, it is recommended to have NO SPACES and UNDERSCORE for differentiation e.g:
 
@@ -93,7 +93,8 @@ api.getLiveScores(“cricket”,”india”,”new_zealand”,function(err,match
 });
 
 3) For cricket the O/P convention is bit different than other sport due to its scoring pattern, an example can help you understand. (output for above match)
-O/P:
+
+Output:
 {
   "team1": "India 557/5 ,  18 *",
   "team2": "New Zealand 299/10",
