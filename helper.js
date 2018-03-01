@@ -30,7 +30,7 @@ function extractOtherScores(sport,match){
         var indexOfHyphen = description.lastIndexOf("-");
         var l = description.length - 1;
         var team1 = description.substring(0,indexOfVs-1).replace("#"," ").trim();
-        var team2 = description.substring(indexOfVs + 2,indexOfColon - 1).replace("#"," ").trim();
+        var team2 = description.substring(indexOfVs + 2,indexOfColon).replace("#"," ").trim();
         var score = description.substring(indexOfColon + 1,indexOfHyphen-1).trim();
         var keyMoment = description.substring(indexOfHyphen+1).trim();
         return getResponseObject(team1,team2,score,keyMoment);
